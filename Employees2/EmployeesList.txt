@@ -1,0 +1,15 @@
+Name: Vova
+Age: 21
+E-mail: vova@gmail.com
+Phone number: 097-111-11-11
+------------------
+Name: Sasha
+Age: 22
+E-mail: sasha@gmail.com
+Phone number: 097-222-22-22
+------------------
+Name: Oleg
+Age: 23
+E-mail: oleg@gmail.com
+Phone number: 097-333-33-33
+------------------
