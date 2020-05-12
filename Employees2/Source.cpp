@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+	Read_file();
 	int action;
 
 	do
@@ -15,20 +16,24 @@ int main() {
 		cout << "3) Delete employee" << endl;
 		cout << "4) Serch employee" << endl;
 		cout << "5) Show employees" << endl;
-		cout << "6) Exit" << endl;
+		cout << "6) Save data to a file." << endl;
+		cout << "7) Exit" << endl;
 		cin >> action;
 
 		switch (action)
 		{
 		case 1:{AddEmployee();}break;
-		case 2: {}break;
-		case 3: {DeleteEmployee();}break;
-		case 4: {SearchEmployee();}break;
-		case 5: {ShowEmployee();}break;
-		case 6: {cout << "Goodbye :)" << endl;}break;
+		case 2: {EditingInfoEmployee(); } break;
+		case 3: {DeleteEmployee(); } break;
+		case 4: {SearchEmployee(); } break;
+		case 5: {ShowEmployees(); } break;
+		case 6: {Save_in_File(); } break;
 
+		case 7: {
+			Save_in_File();
+			cout << "Goodbye :)" << endl;} break;
 		}
-	} while (action !=6);
+	} while (action !=7);
 
 	system("pause");
 	return 0;
